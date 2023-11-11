@@ -6,6 +6,8 @@ st.write("# Heading 1")
 st.write("## Heading 2")
 st.write("### Heading 3")
 
+st.metric(
+
 pilih1 = st.checkbox('Ya')
 pilih2 = st.checkbox('Tidak')
 
