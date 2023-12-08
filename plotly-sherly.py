@@ -42,4 +42,6 @@ plot_dimensi = px.line(
 )
 st.plotly_chart(plot_dimensi)
 
-    
+plot_price = px.pie(df, values = 'price', names='cut', title='price berdasarkan cut',color_discrete_sequence=px.colors.qualitative.Prism)
+st.plotly_chart(plot_price)
+
